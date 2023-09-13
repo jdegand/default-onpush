@@ -9,7 +9,7 @@
 
 ## Directions
 
-In this challenge, we will explore the differences and impacts of using ChangeDetectionStrategy.Default versus ChangeDetectionStrategy.OnPush. To provide a clearer demonstration, I have added color enlightment to each component and each row in our application. However, in real-world scenarios, you will not have such visualization. This is where the Angular DevTool profiler comes to the rescue.
+In this challenge, we will explore the differences and impacts of using ChangeDetectionStrategy.Default versus ChangeDetectionStrategy.OnPush. To provide a clearer demonstration, I have added color enlightment to each component and each row in our application. However, in real-world scenarios, you will not have such visualization. This is where the [Angular DevTools profiler](https://chrome.google.com/webstore/detail/angular-devtools/ienfalfjdbdpebioblfackkekamfmbnh) comes to the rescue.
 
 ### Statement
 

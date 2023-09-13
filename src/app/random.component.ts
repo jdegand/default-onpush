@@ -7,4 +7,4 @@ import { Component } from '@angular/core';
   template: `<div cd-flash>I do nothing but I'm here</div>`,
   imports: [CDFlashingDirective],
 })
-export class RandomComponent {}
+export class RandomComponent { }
