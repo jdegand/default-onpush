@@ -1,9 +1,10 @@
-import { Component, Input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatListModule } from '@angular/material/list';
+import { CDFlashingDirective } from './shared/directives/cd-flashing.directive';
 
 @Component({
   selector: 'app-person-list',
@@ -13,6 +14,7 @@ import { MatListModule } from '@angular/material/list';
     FormsModule,
     MatListModule,
     MatChipsModule,
+    CDFlashingDirective
   ],
   template: `
     <h1 cd-flash class="font-semibold text-center" title="Title">
@@ -37,6 +39,7 @@ import { MatListModule } from '@angular/material/list';
   host: {
     class: 'w-full flex flex-col items-center',
   },
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PersonListComponent {
   @Input() names: string[] = [];
