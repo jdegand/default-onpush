@@ -19,7 +19,7 @@ The goal of this challenge is to improve the clustering of change detection with
 
 - Adding ChangeDetection.onPush seemed to help limit MatFormField from re-rendering but PersonListComponent was unaffected.
 - PersonListComponent is the one changing the most.  
-- The took the gap after `<app-random>` in app.component as a hint as to where an input component should go. 
+- I took the gap after `<app-random>` in app.component as a hint as to where an input component should go. 
 
 ```html
 
